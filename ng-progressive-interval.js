@@ -18,7 +18,7 @@
             initialDelay *= 2;
             execute();
           }
-        }, (initialDelay <= maxDelay) ? initialDelay : maxDelay);
+        }, (!maxDelay || initialDelay <= maxDelay) ? initialDelay : maxDelay);
       }
 
       execute();
