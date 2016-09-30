@@ -1,0 +1,22 @@
+{
+  "name": "ng-progressive-interval",
+  "main": "ng-progressive-interval.js",
+  "authors": [
+    "retoheusser"
+  ],
+  "description": "Angular interval service which doubles the delay with every iteration",
+  "keywords": [
+    "angular",
+    "interval",
+    "progressive"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
